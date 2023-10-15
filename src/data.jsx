@@ -8,6 +8,6 @@ export const projects = [
     github: "https://github.com/JittapolSrisawang/web-dev-portfolio",
     title: "Web Developer Portfolio",
     text: "A website for presenting information and portfolios of web developers.",
-    tools: "React + TailwindCSS",
+    tools: "React + Tailwind CSS",
   },
 ];

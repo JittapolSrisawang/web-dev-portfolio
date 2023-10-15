@@ -16,7 +16,7 @@ const About = () => {
           >
             [Visit my fanpage]
           </a>
-          . I have skills in HTML, CSS, JavaScript, React, TailwindCSS, Bootstrap.
+          . I have skills in HTML, CSS, JavaScript, React, Tailwind CSS, Bootstrap.
         </p>
       </div>
       <div className=" flex justify-center">

@@ -52,8 +52,8 @@ const Hero = () => {
               />
               <img
                 src={tailwind}
-                alt="TailwindCSS"
-                title="TailwindCSS"
+                alt="Tailwind CSS"
+                title="Tailwind CSS"
                 className="h-10 w-10"
               />
               <img
