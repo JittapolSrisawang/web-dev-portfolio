@@ -2,7 +2,7 @@ import { FaGithubSquare, FaGlobe } from "react-icons/fa";
 
 const ProjectsCard = ({ url, img, github, title, text, tools }) => {
   return (
-    <div className="bg-white rounded-lg shadow-md hover:shadow-xl duration-300">
+    <div data-aos='fade-up' className="bg-white rounded-lg shadow-md hover:shadow-xl duration-300">
       <img
         src={img}
         alt={title}
@@ -20,10 +20,10 @@ const ProjectsCard = ({ url, img, github, title, text, tools }) => {
         </div>
         <div className="mt-4 flex gap-x-4">
           <a href={url} title="Live Demo" target="_blank" rel="noreferrer">
-            <FaGlobe className="h-8 w-8 text-slate-500 hover:text-bladk duration-300" />
+            <FaGlobe className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
           </a>
           <a href={github} title="Code" target="_blank" rel="noreferrer">
-            <FaGithubSquare className="h-8 w-8 text-slate-500 hover:text-bladk duration-300" />
+            <FaGithubSquare className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
           </a>
         </div>
       </div>

@@ -9,11 +9,11 @@ const Navbar = () => {
   const handleClose = () => setNav(!nav);
 
   return (
-    <nav className="w-screen fixed bg-slate-50 border-b-2 border-gray-200">
+    <nav className="w-screen bg-slate-50 border-b-2 border-gray-200">
       <div className="w-full mx-auto max-w-7xl px-8 py-4 flex justify-between items-center">
         <h2 className="text-3xl text-slate-800 font-bold">
           <a href="#home">
-            Jittapol<span className="text-orange-600">.dev</span>
+            Portfolio<span className="text-orange-600">.dev</span>
           </a>
         </h2>
         <div className="sm:hidden" onClick={handleClick}>

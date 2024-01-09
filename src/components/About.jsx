@@ -4,23 +4,24 @@ const About = () => {
   return (
     <div id="about" className="align-element grid md:grid-cols-2 gap-8">
       <div>
-        <h1 className="title-section">About Me</h1>
-        <p className="text-section">
-          I have 3 years of experience as a web developer and 9 years as a
-          freelance photographer{" "}
-          <a
-            href="http://www.facebook.com/PalaPolPhotographer"
-            target="_blank"
-            rel="noreferrer"
-            className="text-blue-600 hover:text-orange-600"
-          >
-            [Visit my fanpage]
-          </a>
-          . I have skills in HTML, CSS, JavaScript, React, Tailwind CSS, Bootstrap.
+        <h1 data-aos='fade-up' className="title-section">About Me</h1>
+        <p data-aos='fade-up' className="text-section">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Necessitatibus illum iste quas eum voluptas, ipsum beatae maiores?
+          Rem, dolores vitae. Animi adipisci dignissimos doloremque dolorum
+          beatae ipsum architecto quia unde.
         </p>
       </div>
-      <div className=" flex justify-center">
-        <img src={photo2} alt="My_Photo" className="h-80 w-80 rounded-lg" />
+      <div
+        data-aos="zoom-in"
+
+        className=" flex justify-center hover:scale-105 duration-300 shadow-md"
+      >
+        <img
+          src={photo2}
+          alt="My_Photo"
+          className="h-70 w-120 rounded-lg drop-shadow-[10px_10px_12px_rgba(0,0,0,0.2)]"
+        />
       </div>
     </div>
   );

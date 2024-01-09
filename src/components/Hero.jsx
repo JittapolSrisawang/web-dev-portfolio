@@ -12,32 +12,47 @@ const Hero = () => {
   return (
     <div id="home" className="bg-slate-100 py-24">
       <div className="align-element grid md:grid-cols-2 gap-8">
-        <div className="flex justify-center">
-          <img src={photo} alt="My_Photo" className="h-80 w-80 rounded-full" />
+        <div
+          data-aos="zoom-in"
+          data-aos-duration="500"
+          className="flex justify-center hover:scale-105 duration-300"
+        >
+          <img
+            src={photo}
+            alt="My_Photo"
+            className="h-80 w-80 rounded-full drop-shadow-[10px_10px_12px_rgba(0,0,0,0.2)]"
+          />
         </div>
         <div>
-          <h1 className="text-5xl text-slate-800 font-bold tracking-wider">
+          <h1
+            data-aos="zoom-out"
+            data-aos-duration="500"
+            data-aos-once="true"
+            className="text-5xl text-slate-800 font-bold tracking-wider"
+          >
             Front-End Developer
           </h1>
-          <p className="text-section">
-            Hello, I'm Jittapol Srisawang. A passionate Front-end React
-            Developer.
+          <p
+            data-aos="fade-up"
+            data-aos-duration="500"
+            data-aos-delay="100"
+            className="text-section"
+          >
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+            a ab sit, deserunt fugit aliquam illum minus eum quam sequi cum quod
+            officiis, vitae mollitia voluptatem perspiciatis quasi autem
+            obcaecati?
           </p>
-          <div className="flex items-center gap-4 mt-14 text-base text-slate-800">
+          <div
+            data-aos="fade-up"
+            data-aos-duration="500"
+            data-aos-delay="200"
+            className="flex items-center gap-4 mt-14 text-base text-slate-800"
+          >
             <p className="border-r-4 border-slate-500 px-2">Tech Stack</p>
             <div className="flex flex-wrap gap-4">
-              <img
-                src={html}
-                alt="HTML"
-                title="HTML" 
-                className="h-10 w-10" 
-              />
-              <img
-                src={css} 
-                alt="CSS"
-                title="CSS"
-                className="h-10 w-10"
-              />
+              <img src={html} alt="HTML" title="HTML" className="h-10 w-10" />
+              <img src={css} alt="CSS" title="CSS" className="h-10 w-10" />
               <img
                 src={js}
                 alt="Javascript"
@@ -64,7 +79,12 @@ const Hero = () => {
               />
             </div>
           </div>
-          <div className="flex items-center gap-4 mt-10 text-base text-slate-800">
+          <div
+            data-aos="fade-up"
+            data-aos-duration="500"
+            data-aos-delay="300"
+            className="flex items-center gap-4 mt-10 text-base text-slate-800"
+          >
             <p className="border-r-4 border-slate-500 px-2">Other Skills</p>
             <div className="flex flex-wrap gap-4">
               <img
