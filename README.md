@@ -2,4 +2,6 @@
 - React
 - Tailwind CSS
 
-ดูตัวอย่างเว็บไซต์ได้ที่ [https://jittapol-srisawang-portfolio.netlify.app](https://jittapol-srisawang-portfolio.netlify.app)
+ดูตัวอย่างผลลัพธ์ได้ที่ : [Live Demo]
+
+[Live Demo]:https://web-dev-portfolio-js.netlify.app/
